@@ -1,0 +1,30 @@
+img {
+    width: 400px;
+}
+
+table {
+    border: 0.2rem solid rgb(9, 185, 185);
+    height: 55px;
+}
+
+th {
+    color: blue;
+    border: 1px solid;
+}
+
+td {
+    color: darkorchid;
+    border: 1px solid;
+}
+
+div {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+#green {
+    color: green;
+}

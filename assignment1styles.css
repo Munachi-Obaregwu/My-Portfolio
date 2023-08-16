@@ -1,0 +1,66 @@
+img {
+    height: 478px;
+    margin-top: -16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.name {
+    text-align: left;
+    font-size: 2rem;
+    display: inline;
+    /* padding-left: 10px; */
+    color: cornflowerblue;
+}
+
+.links {
+    text-align: right;
+    font-size: 25px;
+    display: inline;
+    padding-left: 0px;
+}
+
+.websites {
+    padding-right: 13px;
+}
+
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboutme {
+    font-size: 1.3rem;
+    padding-left: 0px;
+    color: rgba(219, 51, 51, 0.903);
+}
+
+#readmorebutton {
+    margin-left: 250px;
+    /* margin-top: -160px; */
+    /* display: block; */
+    /* margin-bottom: 140px; */
+    height: 40px;
+    width: 110px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10%;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: navy;
+}
+
+.mynav:hover{
+    background-color: aquamarine;
+    color: white;
+    /* margin-right: 1rem; I commented this out because it moves the other ones while transforming */
+    border-radius: 10px;
+    transition: 2s all;
+}

@@ -1,0 +1,100 @@
+.fatherdiv {
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.5)), url("space1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(../PROGRAMMING\ IMAGES/House\(6\).jpg); */
+}
+
+.contact {
+    padding-top: 10px;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+.myname:hover{
+    color: rgba(123, 123, 123, 0.517);
+    transition: 3s all;
+}
+
+.mynavbuttons:hover {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 10px;
+    transition: 2s all;
+}
+
+.textcentering {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.phonenumber {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.sendbutton {
+    border: none;
+    height: 40px;
+    width: auto;
+    margin: auto;
+    background-color: #3173b5;
+    color: aliceblue;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.buttondiv {
+    text-align: center;
+    align-items: center;
+}
+
+/* .messagesender1 {
+    
+} */
+
+.messagesender2 {
+    background-color: lightgray;
+    border-radius: 10rem;
+    border-bottom-left-radius: 0%;
+}
+
+.messagekeys {
+    text-align: center;
+}
+
+.messagekeys input {
+    width: 72%;
+    border-radius: 0.9rem;
+    border: none;
+    height: 2rem;
+    background-color: #3173b57e;
+    border-bottom-left-radius: 0%;
+}
+
+.left {
+    width: 90%;
+}
+
+#messagebody {
+    border-radius: 1.3rem;
+    border: none;
+    border-bottom-left-radius: 0%;
+    background-color: #3173b57e;
+}

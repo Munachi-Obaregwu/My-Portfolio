@@ -1,0 +1,11 @@
+img {
+    width: 400px;
+    height: 580px;
+}
+
+.mynav:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+    transition: 2s all;
+}

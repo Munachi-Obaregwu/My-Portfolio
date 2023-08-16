@@ -1,0 +1,7 @@
+.mynav:hover{
+    background-color: aquamarine;
+    color: white;
+    /* margin-right: 1rem; I commented this out because it moves the other ones while transforming */
+    border-radius: 10px;
+    transition: 2s all;
+}
